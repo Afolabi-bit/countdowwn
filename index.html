@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Launch countdown timer</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">We're launching soon</h1>
+      <main>
+        <div class="card">
+          <div class="wrapper day-wrap">
+            <span class="leaf"></span>
+            <span class="line"></span>
+            <p class="value" id="days"></p>
+          </div>
+          <p class="text">days</p>
+        </div>
+
+        <div class="card">
+          <div class="wrapper hour-wrap">
+            <span class="leaf"></span>
+            <span class="line"></span>
+            <p class="value" id="hours"></p>
+          </div>
+          <p class="text">hours</p>
+        </div>
+        <div class="card">
+          <div class="wrapper minute-wrap">
+            <span class="leaf"></span>
+            <span class="line"></span>
+            <p class="value" id="minutes"></p>
+          </div>
+          <p class="text">minutes</p>
+        </div>
+        <div class="card">
+          <div class="wrapper seconds-wrap">
+            <span class="leaf"></span>
+            <span class="line"></span>
+            <p class="value" id="seconds"></p>
+          </div>
+          <p class="text">seconds</p>
+        </div>
+      </main>
+
+      <footer>
+        <div class="links">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+          <a href="#"> <i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Fola</a>.
+        </p>
+      </footer>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
